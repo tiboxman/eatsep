@@ -31,7 +31,7 @@
         transform:
           rotate($rot * 1deg)
           translate($circle-size / 2)
-          // rotate($rot * -1deg);
+          rotate($rot * -1deg);
       }
 
       $rot: $rot + $angle;
